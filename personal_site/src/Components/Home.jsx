@@ -4,6 +4,7 @@ import logo from '../transparentLogo.png'
 
 
 
+
 class Home extends React.Component{
     constructor(){
         super()
@@ -15,35 +16,47 @@ class Home extends React.Component{
     render() {
         return (
             <div id="home-page">
+                <header><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"></link></header>
                 <div>
                     <img src={logo} className="App-logo" alt="logo" />
                 </div>
                 <div id="skills">
-                <div>
-                    <img className="skillIcon" src="https://clipartart.com/images/javascript-icon-clipart-6.png"></img>
-                    <p className="skillP">Javascript</p>
-                </div>
-                <div>
-                    <img className="skillIcon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"></img>
-                    <p className="skillP">React</p>
-                </div>
-                <div>
-                    <img className="skillIcon" src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/184/full/html5.png"></img>
-                    <p className="skillP">HTML</p>
-                </div>  
-                <div>
-                    <img className="skillIcon" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"></img>
-                    <p className="skillP">Github</p>
-                </div>
-                <div>
-                    <img className="skillIcon" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"></img>
-                    <p className="skillP">Postgres</p>
-                </div>
-                
-                <div>
-                    <img className="skillIcon" src="https://cdn.iconscout.com/icon/free/png-512/ableton-10-569537.png"></img>
-                    <p className="skillP">Ableton</p>
-                </div>
+                        <div className="eachSkill1" id="javascript">
+                            <i class="devicon-javascript-plain colored" ></i>
+                            <p className="skillP">Javascript  </p>
+                        </div>
+                        <div className="eachSkill1" id="react">
+                            <i class="devicon-react-original colored" ></i> 
+                            <p className="skillP">React  </p>
+                        </div>
+                        <div className="eachSkill1" id="html">
+                            <i class="devicon-html5-plain colored" ></i>
+                            <p className="skillP">HTML  </p>
+                        </div>  
+                        <div className="eachSkill1" id="css">
+                            <i class="devicon-css3-plain colored" ></i>
+                            <p className="skillP">CSS  </p>
+                        </div>  
+
+                        <div className="eachSkill2" id="github">
+                            <i class="devicon-github-plain colored" ></i>
+                            <p className="skillP">Github  </p>
+                        </div>
+                        <div className="eachSkill2" id="postgres">
+                            <i class="devicon-postgresql-plain colored" ></i>
+                            <p className="skillP">Postgres  </p>
+                        </div>
+                        
+                        <div className="eachSkill2" id="express">
+                            <i class="devicon-express-original colored" ></i>
+                            <p className="skillP">Express  </p>
+                        </div>
+
+                        <div className="eachSkill2" id="node">
+                            <i class="devicon-nodejs-plain colored" ></i>
+                            <p className="skillP">Node.js  </p>
+                        </div>
+
                 </div>
             </div>
         )}

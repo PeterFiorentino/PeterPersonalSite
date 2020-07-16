@@ -22,6 +22,7 @@ class NavBar extends React.Component{
                     <a href="https://github.com/PeterFiorentino" className="navBarLinks">GitHub</a>
                     <a href="https://docs.google.com/document/d/19CM4vR8GewcGisFbTzOctjcoNqThDNwTwYJQJtKuwss/edit?usp=sharing" className="navBarLinks">Résumé</a>
                     <Link to="/music" className="navBarLinks">Music</Link>
+                    <Link to="/about" className="navBarLinks">About</Link>
                 </div>
             </div>
         )

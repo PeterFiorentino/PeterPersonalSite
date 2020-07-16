@@ -14,6 +14,7 @@ class Music extends React.Component{
     render() {
         return (
             <div id="music">
+                <YouTube videoId = "76PRw0s886w" className="musicVideo"/>
                 <YouTube videoId = "IGxhfyRWWX4" className="musicVideo"/>
                 <YouTube videoId = "bCyqXFBvYms" className="musicVideo"/>
                 <YouTube videoId = "MSWRgTIy9kc" className="musicVideo"/>

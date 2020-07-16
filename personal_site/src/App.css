@@ -3,14 +3,10 @@ html, body, #root, .App, #home-page {
   margin: 0
 }
 
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  padding: 10%;
+  padding: 5%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,7 +20,6 @@ html, body, #root, .App, #home-page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -46,11 +41,37 @@ html, body, #root, .App, #home-page {
 .skillIcon {
   height: 50px;
   width: 75px;
+  margin: auto;
 }
 
 #skills {
   display: flex;
-  margin-right: 5%;
+  margin: auto;
+}
+
+.eachSkill1 {
+  margin: auto;
+  /* .margin-right: 5%; */
+}
+
+.eachSkill2 {
+  margin: auto;
+  /* margin-right: 4%; */
+}
+
+#skillSet1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skillSet2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+i {
+  font-size: 200%;
 }
 
 #NavBar-page {
@@ -62,20 +83,34 @@ html, body, #root, .App, #home-page {
   margin-right: 3%;
   text-decoration: none;
   color: #61dafb;
+  margin: auto;
+}
+
+.navBarLinks:hover {
+  color: white
 }
 
 #music {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .musicVideo {
-  padding: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
 }
 
+
 #navBarName {
+  font-size: 200%;
   text-decoration: none;
   color: white;
+  /* margin-left: 9%; */
+  margin: auto;
+}
+
+#navBarName:hover {
+  color: #61dafb;
 }
 
 .projectPic {
@@ -98,6 +133,7 @@ html, body, #root, .App, #home-page {
 
 #navBar {
   padding-bottom: 2%;
+  text-align: center;
 }
 
 .projectTitle {
@@ -117,4 +153,17 @@ hr {
   padding-left: 25%;
   text-align: left;
   width: 50%;
+}
+
+#home-page{
+  text-align: center;
+}
+
+.aboutPic {
+  height: 40vmin;
+}
+
+#About {
+  text-align: center;
+  padding: auto;
 }

@@ -4,6 +4,7 @@ import Home from './Components/Home'
 import Music from './Components/Music'
 import Projects from './Components/Projects'
 import NavBar from './Components/NavBar'
+import About from './Components/About'
 import {Route, Switch} from 'react-router-dom'
 
 
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route exact path="/music" component={Music}/>
           <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/about" component={About}/>
         </Switch>
       </header>
     </div>
