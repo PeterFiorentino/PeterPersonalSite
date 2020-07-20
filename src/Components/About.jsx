@@ -23,7 +23,7 @@ class About extends React.Component{
     render() {
         return (
             <div id="About">
-                <img src={suit} id="1" onMouseOver={this.changePic} className="aboutPic"></img>    
+                <img src={suit} id="1" onMouseOver={this.changePic} className="aboutPic" alt="Pics of Peter"></img>    
                 <p>
                     All my life I have loved music. I learned how to play saxaphone in high school and used that 
                     knowledge to teach myself how to play other instruments including piano and bass. My passion for 
