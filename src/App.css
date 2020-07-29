@@ -1,7 +1,8 @@
 html, body, #root, .App, #home-page {
   height: 100%;
-  margin: 0
+  margin: 0;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -18,9 +19,10 @@ html, body, #root, .App, #home-page {
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -101,7 +103,6 @@ i {
   padding-bottom: 2%;
 }
 
-
 #navBarName {
   font-size: 200%;
   text-decoration: none;
@@ -171,5 +172,6 @@ hr {
 
 #About {
   text-align: center;
-  padding: auto;
+  /* padding: auto; */
+  height: 100%;
 }
